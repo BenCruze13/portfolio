@@ -76,6 +76,9 @@ section{
     padding: 0px 20px;
     position: fixed;
 }
+#media a{
+    margin-left: 0px;
+}
 #media i{
     letter-spacing: 30px;
     font-size: 25px;
@@ -213,7 +216,7 @@ section{
     transform: scale(1.01);
 }
 #word1{
-    width: 35%;
+    width: 37%;
     margin-top: 175px;
     margin-left: 80px;
     padding-right: 30px;
@@ -310,6 +313,7 @@ progress{
     flex-wrap: wrap;
    justify-content: center;
    width: 80%;
+   padding-bottom: 100px;
 }
 
 #container3 i{
@@ -608,8 +612,10 @@ progress{
 }
 #compact{
     margin: 50px 150px 0px 150px;
+    margin-left: 170px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 #port{
     position: relative;
@@ -622,7 +628,7 @@ progress{
      margin: 2px;
      overflow: hidden;
      transition: .5s;
-     margin-right: 50px;
+     margin-right: 40px;
      margin-bottom: 50px;
 }
 
